@@ -1,0 +1,56 @@
+h1
+{
+    color: blue;
+    margin: auto;
+}
+
+div
+{
+    margin: auto;
+    border: 1px black solid ;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+form
+{   
+    background-color: yellow;
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+
+.enter
+{
+    grid-column: 4;
+    grid-row: 5;  
+}
+
+.f
+{
+    grid-row: 2;
+ 
+}
+
+.s
+{
+    grid-row: 3;
+ 
+}
+
+.t
+{
+    grid-row: 4;
+ 
+}
+
+.th
+{
+    grid-row: 5;
+
+}
+
+
